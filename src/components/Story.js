@@ -1,6 +1,7 @@
-import React from 'react'
-import storyImage from '../assets/images/story.jpg'
-function Story () {
+import React from 'react';
+import storyImage from '../assets/images/story.jpg';
+
+function Story() {
   return (
     <div id='story' className='story section-padding'>
       <div className='container'>
@@ -8,12 +9,9 @@ function Story () {
           <div className='col-md-5 mb-30'>
             <div className='story-img animate-box'>
               <div className='img'>
-                {' '}
-                <img src={storyImage} className='img-fluid' alt='' />{' '}
+                <img src={storyImage} className='img-fluid' alt='our-story' />
               </div>
-              <div
-                className='story-img-2 story-wedding'
-              ></div>
+              <div className='story-img-2 story-wedding'></div>
             </div>
           </div>
           <div className='col-md-7 animate-box'>
@@ -35,7 +33,7 @@ function Story () {
               lacus. Nedana themo eros odio semper soe suscipit non. Curabit
               aliquet orci elit genes tristique.
             </p>
-            <h4>Dec 5th, 2021, We Said Yes!</h4>
+            <h4>El 5 de Marzo del 2022, nos comprometimos!</h4>
             <p>
               Luality fringilla duiman at elit finibus viverra nec a lacus themo
               the druanye sene sollicitudin mi suscipit non sagie the fermen.
@@ -44,7 +42,7 @@ function Story () {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Story
+export default Story;

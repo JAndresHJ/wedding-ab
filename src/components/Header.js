@@ -1,19 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-function Header () {
+function Header() {
   return (
-    <header
-      id='home'
-      className='header valign bg-img parallaxie'
-    >
+    <header id='home' className='header valign bg-img parallaxie'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 text-center caption'>
             <h1 className='animate-box' data-animate-effect='fadeInUp'>
-              Olivia & Enrico
+              Ana & Andrés
             </h1>
             <h5 className='animate-box' data-animate-effect='fadeInUp'>
-              15 December, 2021 – New York
+              19 de Marzo, 2023
             </h5>
           </div>
         </div>
@@ -21,15 +18,14 @@ function Header () {
           <div className='col-md-12'>
             <div className='arrow bounce text-center'>
               <a href='#couple'>
-                {' '}
-                <i className='ti-heart'></i>{' '}
+                <i className='ti-heart'></i>
               </a>
             </div>
           </div>
         </div>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

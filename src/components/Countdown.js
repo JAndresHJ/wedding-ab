@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 function Countdown() {
-  const [dateReached, setDateReached] = useState(true);
+  const [dateReached, setDateReached] = useState(false);
 
   useEffect(() => {
     const second = 1000,
@@ -52,23 +52,23 @@ function Countdown() {
         <div className='container'>
           <div className='row'>
             <div className='section-head col-md-12'>
-              <h4>We will become a family in</h4>
+              <h4>Seremos una familia en:</h4>
             </div>
           </div>
           <div className='row'>
             <div className='col-md-12'>
               <ul>
                 <li>
-                  <span id='days'></span>Days
+                  <span id='days'></span>Días
                 </li>
                 <li>
-                  <span id='hours'></span>Hours
+                  <span id='hours'></span>Horas
                 </li>
                 <li>
-                  <span id='minutes'></span>Minutes
+                  <span id='minutes'></span>Minutos
                 </li>
                 <li>
-                  <span id='seconds'></span>Seconds
+                  <span id='seconds'></span>Segundos
                 </li>
               </ul>
             </div>
