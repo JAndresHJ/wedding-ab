@@ -34,7 +34,7 @@ function Sidebar() {
         <nav className='oliven-main-menu'>
           <ul>
             <li>
-              <a href='#home'>Home</a>
+              <a href='#home'>Inicio</a>
             </li>
             <li>
               <a href='#couple'>Nosotros</a>
@@ -44,6 +44,9 @@ function Sidebar() {
             </li>
             <li>
               <a href='#organization'>Organization</a>
+            </li>
+            <li>
+              <a href='#gifts'>Mesa de regalos</a>
             </li>
             <li>
               <a href='#gallery'>Galería</a>

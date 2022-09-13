@@ -2,6 +2,7 @@ import Bridegroom from './components/Bridegroom';
 import Countdown from './components/Countdown';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
+import Gifts from './components/Gifts';
 import Header from './components/Header';
 import Organization from './components/Organization';
 import RSVP from './components/RSVP';
@@ -21,6 +22,7 @@ function App() {
         <Story />
         <Seeyou />
         <Organization />
+        <Gifts />
         <Gallery />
         <Where />
         <RSVP />

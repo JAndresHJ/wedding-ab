@@ -313,6 +313,9 @@ input[type=checkbox]:checked:after {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.section-padding-gift {
+    padding-bottom: 20px;
+}
 .js .animate-box {
     opacity: 0;
 }
@@ -977,6 +980,11 @@ body.slide .oliven-nav-toggle {
   margin-left: 0;
   margin-right: 160px;
   text-align: right;
+}
+.bridegroom .toright .gift {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
 }
 .bridegroom .toright .info .social a {
   margin-right: 0;
