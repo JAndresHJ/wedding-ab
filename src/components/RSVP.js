@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
+import { db } from '../firebase';
+import { uid } from 'uid';
+import { set, ref } from 'firebase/database';
+
+const initalFormState = {
+  name: '',
+  phone: '',
+  guests: '',
+  message: '',
+};
 
 function RSVP() {
-  const [formState, setFormState] = useState({
-    name: '',
-    phone: '',
-    guests: '',
-    message: '',
-  });
+  const [formState, setFormState] = useState(initalFormState);
   const [hasGuests, setHasGuests] = useState(false);
 
   const { name, phone, guests, message } = formState;
@@ -25,7 +30,13 @@ function RSVP() {
 
   const onSubmit = (evt) => {
     evt.preventDefault();
+    const uuid = uid();
+    set(ref(db, `${uuid}/`), {
+      ...formState,
+      hasGuests,
+    });
     alert(JSON.stringify({ ...formState, hasGuests }));
+    setFormState(initalFormState);
   };
 
   return (
@@ -85,6 +96,7 @@ function RSVP() {
               <div className='col-md-12'>
                 <div className='form-group'>
                   <input
+                    required={hasGuests}
                     type='number'
                     className='form-control'
                     placeholder='Cuántos acompañantes?'
