@@ -1,7 +1,5 @@
 import React from 'react';
-import where1 from '../assets/images/where-1.jpg';
-import where2 from '../assets/images/where-2.jpg';
-import where3 from '../assets/images/where-3.jpg';
+import where1 from '../assets/images/ceremony.jpg';
 
 function Where() {
   return (
@@ -9,55 +7,35 @@ function Where() {
       <div className='container'>
         <div className='row'>
           <div className='col-md-12 mb-30'>
-            <span className='oliven-title-meta'>Questions</span>
+            <span className='oliven-title-meta'>Ceremonia</span>
             <h2 className='oliven-title'>Cuándo & Dónde?</h2>
           </div>
         </div>
         <div className='row'>
           <div className='item col-12 col-md-4'>
             <div className='whenwhere-img'>
-              <img src={where1} alt='' />
+              <img src={where1} alt='save-date' />
             </div>
             <div className='content'>
-              <h5>Wedding Ceremony</h5>
+              <h5>Ceremonia Civil & Religiosa</h5>
               <p>
-                <i className='ti-location-pin'></i> 175 Broadway, Brooklyn, New
-                York 11244, USA
+                <i className='ti-location-pin'></i> Calle Juan Manuel Ruvalcaba
+                1038 Nextipac, 45220 Zapopan, Jal.
               </p>
               <p>
-                <i className='ti-time'></i> <span>12:00am – 13:00pm</span>
+                <i className='ti-time'></i> <span>7:00pm – 2:00am</span>
               </p>
             </div>
           </div>
-          <div className='item col-12 col-md-4'>
-            <div className='whenwhere-img'>
-              <img src={where2} alt='' />
-            </div>
-            <div className='content'>
-              <h5>Weddding Party</h5>
-              <p>
-                <i className='ti-location-pin'></i> Fortune Brooklyn restaurant,
-                149 Broadway, Brooklyn, NY, USA
-              </p>
-              <p>
-                <i className='ti-time'></i> <span>14:00pm</span>
-              </p>
-            </div>
-          </div>
-          <div className='item col-12 col-md-4'>
-            <div className='whenwhere-img'>
-              <img src={where3} alt='' />
-            </div>
-            <div className='content'>
-              <h5>Accomodations</h5>
-              <p>
-                <i className='ti-direction-alt'></i> Hotel and distance from
-                wedding party restaurant:
-              </p>
-              <p>
-                <i className='ti-direction'></i> The William Vale (7 min)
-              </p>
-            </div>
+          <div className='item col-12 col-md-8'>
+            <iframe
+              title='location'
+              src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.5782217793926!2d-103.52370408431054!3d20.767882702007032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428a7eaa3565d45%3A0xc781ff0e460b4c62!2sHACIENDA%20NEXTIPAC%20Eventos!5e0!3m2!1ses!2smx!4v1667595381955!5m2!1ses!2smx'
+              width='100%'
+              height={450}
+              loading='lazy'
+              referrerPolicy='no-referrer-when-downgrade'
+            ></iframe>
           </div>
         </div>
       </div>

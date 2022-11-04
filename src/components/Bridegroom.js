@@ -1,6 +1,6 @@
 import React from 'react';
-import Bride from '../assets/images/bride.jpg';
-import Groom from '../assets/images/groom.jpg';
+import Bride from '../assets/images/belen-1.jpg';
+import Groom from '../assets/images/andres-1.jpg';
 
 function Bridegroom() {
   return (

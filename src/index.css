@@ -215,7 +215,6 @@ label {
     color: #777;
     transition: all .3s cubic-bezier(.64, .09, .08, 1);
     display: inline-block;
-    -moz-appearance: none;
     display: inline-block;
     vertical-align: middle;
         font-family: 'Nunito Sans', sans-serif;
@@ -233,9 +232,7 @@ input[type=radio]:before {
 input[type=checkbox] {
     position: relative;
     cursor: pointer;
-    margin: 5px 15px 15px 5px;;
-    -moz-appearance: none;
-     -webkit-appearance: none;
+    margin: 5px 15px 15px 5px;
 }
 .form-check-input:checked {
     color: #BD945A;
@@ -812,7 +809,7 @@ body.slide .oliven-nav-toggle {
     color: #fff;
 }
 .header.parallaxie {
-  background-image: url(./assets/images/slider.jpg);
+  background-image: url(./assets/images/portada-2.jpg);
 }
 @media screen and (max-width: 991px) {
     .header {
@@ -1010,7 +1007,7 @@ body.slide .oliven-nav-toggle {
 /* ======= Wedding Countdown style ======= */
 #countdown {
     text-align: center;
-    background-image: url(./assets/images/banner-1.jpg);
+    background-image: url(./assets/images/married-shink.jpg);
 }
 #countdown .section-head {
     margin-bottom: 15px;
@@ -1121,25 +1118,7 @@ body.slide .oliven-nav-toggle {
     top: 15px;
     right: 45px;
     z-index: 3;
-    background-image: url(./assets/images/wedding-logo.png);
 }
-
-/* story-wedding */
-
-.story-wedding {
-    -webkit-animation: rotation 12s infinite linear;
-    animation: rotation 12s infinite linear;
-}
-
-@-webkit-keyframes rotation {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(359deg);
-    }
-}
-
 
 @media screen and (max-width: 991px) {
 .story-img .story-img-2 {
@@ -1161,73 +1140,6 @@ body.slide .oliven-nav-toggle {
     right: 45px;
     }
 }
-
-
-/* ===== Organization style  ===== */
-.organization .bord-box {
-  overflow: hidden;
-  background-image: url(./assets/images/slider.jpg);
-}
-.organization .item-box {
-  padding: 60px 30px;
-  height: 100%;
-  background-color: #fff;
-  border: 1px solid #F6F1F0;
-  border-right: 0;
-  -webkit-transition: all .4s;
-  -o-transition: all .4s;
-  transition: all .4s; }
-.organization .item-box:last-of-type {
-    border-right: 1px solid #F6F1F0; 
-}
-.organization .item-box:hover {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #fff; }
-.organization .item-box:hover p {
-      color: #fff; 
-}
-.organization .item-box:hover .title {
-      color: #FFF; 
-}
-.organization .item-box .numb {
-    font-size: 75px;
-    margin-bottom: 15px;
-    color: transparent;
-    -webkit-text-stroke: 1px #BD945A; 
-}
-.organization .item-box .title {
-   font-size: 21px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    font-family: 'Cormorant Garamond', serif;
-    color: #000;
-
-}
-.organization .item-box.bg-img {
-    position: relative;
-    border: 0;
-    z-index: 2; }
-.organization .item-box.bg-img:hover:after {
-      background: rgba(0, 0, 0, 0.4); 
-}
-.organization .item-box.bg-img:after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: #fff;
-      -webkit-transition: all .4s;
-      -o-transition: all .4s;
-      transition: all .4s;
-      z-index: -1; 
-}
-.organization.item-box:hover .numb, .organization.item-box:hover .title {
-      color: #fff; 
-}
-
 
 /* ======= See You style ======= */
 .seeyou {
@@ -1261,7 +1173,7 @@ body.slide .oliven-nav-toggle {
 
 /* =====  Gallery style  ===== */
 .gallery-menu li a {
-        cursor: pointer;
+    cursor: pointer;
     display: block;
     color: #888;
     margin-bottom: 5px;
@@ -1271,7 +1183,7 @@ body.slide .oliven-nav-toggle {
 }
 .gallery-menu a.active,
 .gallery-menu a:hover {
-       color: #fff;
+    color: #fff;
     background-color: #BD945A;
 }
 .gallery-item {
@@ -1302,35 +1214,7 @@ body.slide .oliven-nav-toggle {
     transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
     border-radius: 0;
 }
-.gallery-box .gallery-detail {
-    opacity: 0;
-    color: #FFF;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    position: absolute;
-    left: 0;
-    overflow: hidden;
-    transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
-    text-align: center;
-}
-.gallery-box .gallery-detail h4 {
-    font-family: 'Alex Brush', cursive;
-    font-weight: 400;
-    font-size: 24px;
-    color: #fff;
-}
-.gallery-box .gallery-detail p {
-    color: #fff;
-}
-.gallery-box:hover .gallery-detail {
-    top: 50%;
-    transform: translate(0, -50%);
-    opacity: 1;
-}
-.gallery-box:hover .gallery-img:after {
-    background: rgba(0, 0, 0, 0.4);
-}
+
 .gallery-box:hover .gallery-img>img {
     transform: scale(1.05);
 }

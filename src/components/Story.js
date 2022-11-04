@@ -11,7 +11,7 @@ function Story() {
               <div className='img'>
                 <img src={storyImage} className='img-fluid' alt='our-story' />
               </div>
-              <div className='story-img-2 story-wedding'></div>
+              <div className='story-img-2'></div>
             </div>
           </div>
           <div className='col-md-7 animate-box'>

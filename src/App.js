@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Gifts from './components/Gifts';
 import Header from './components/Header';
-import Organization from './components/Organization';
 import RSVP from './components/RSVP';
 import Seeyou from './components/Seeyou';
 import Sidebar from './components/Sidebar';
@@ -21,7 +20,6 @@ function App() {
         <Countdown />
         <Story />
         <Seeyou />
-        <Organization />
         <Gifts />
         <Gallery />
         <Where />
