@@ -17,7 +17,7 @@ function Where() {
               <img src={where1} alt='save-date' />
             </div>
             <div className='content'>
-              <h5>Ceremonia Civil & Religiosa</h5>
+              <h5>Ceremonia Civil & Fiesta</h5>
               <p>
                 <i className='ti-location-pin'></i> Calle Juan Manuel Ruvalcaba
                 1038 Nextipac, 45220 Zapopan, Jal.
@@ -36,6 +36,19 @@ function Where() {
               loading='lazy'
               referrerPolicy='no-referrer-when-downgrade'
             ></iframe>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='item col-12 col-md-12'>
+            <div className='content-rules'>
+              <h5>
+                CONSIDERACIONES IMPORTANTES
+                <p style={{ marginTop: 15 }}>
+                  <li>CODIGO DE VESTIMENTA FORMAL</li>
+                  <li>NO NIÑOS</li>
+                </p>
+              </h5>
+            </div>
           </div>
         </div>
       </div>

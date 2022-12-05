@@ -44,9 +44,9 @@ function Gifts() {
                   <h6>
                     Citibanamex<i className='ti-heart'></i>
                   </h6>
-                  <h4>Nombre: Jorge Andrés Hernández Jara</h4>
-                  <h4>Tarjeta:</h4>
-                  <h4>CLABE:</h4>
+                  <p>Nombre: Jorge Andrés Hernández Jara</p>
+                  <p>Tarjeta: 5256 7837 6921 8299</p>
+                  <p>CLABE: 002320904648426587</p>
                   <p>
                     En caso de hacer una transferencia o depósito, por favor
                     háznolo saber para poder darte las gracias.

@@ -292,6 +292,7 @@ input[type=checkbox]:checked:after {
     margin-bottom: 0;
 }
 .mb-30 {
+    align-self: center;
     margin-bottom: 30px;
 }
 .mb-60 {
@@ -311,6 +312,7 @@ input[type=checkbox]:checked:after {
     padding-bottom: 100px;
 }
 .section-padding-gift {
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 .js .animate-box {
@@ -331,9 +333,6 @@ input[type=checkbox]:checked:after {
 .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
-}
-.bg-fixed {
-    background-attachment: fixed;
 }
 .bg-cover {
     background-size: cover !important;
@@ -989,25 +988,24 @@ body.slide .oliven-nav-toggle {
 }
 
 @media screen and (max-width: 991px) {
-.bridegroom .img {
-    margin: auto;
-    float: none !important;
-}
-.bridegroom .info {
-    margin: 30px 0 0 0 !important;
-}
-    
-    .bridegroom .item, .bridegroom .toright .info {
-    text-align: center;
-}
-    
+    .bridegroom .img {
+        margin: auto;
+        float: none !important;
     }
+    .bridegroom .info {
+        margin: 30px 0 0 0 !important;
+    }
+        
+        .bridegroom .item, .bridegroom .toright .info {
+        text-align: center;
+    }
+}
 
 
 /* ======= Wedding Countdown style ======= */
 #countdown {
     text-align: center;
-    background-image: url(./assets/images/married-shink.jpg);
+    background-image: url(./assets/images/married.jpg);
 }
 #countdown .section-head {
     margin-bottom: 15px;
@@ -1143,7 +1141,7 @@ body.slide .oliven-nav-toggle {
 
 /* ======= See You style ======= */
 .seeyou {
-  background-image: url(./assets/images/banner-3.jpg);
+  background-image: url(./assets/images/married-2.jpg);
 }
 .seeyou .section-head span {
     color: #fff;
@@ -1237,6 +1235,17 @@ body.slide .oliven-nav-toggle {
     padding: 20px 20px 30px 20px;
     background: #fff;
 }
+
+.whenwhere .item .content-rules {
+    border:4px solid rgba(189, 148, 90, 0.75);
+    padding: 10px;
+    background: #fff;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .whenwhere .item .content .tag a {
     color: #888;
     font-style: italic;

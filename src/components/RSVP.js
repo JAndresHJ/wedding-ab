@@ -35,7 +35,7 @@ function RSVP() {
       ...formState,
       hasGuests,
     });
-    alert(JSON.stringify({ ...formState, hasGuests }));
+    alert('Respuesta enviada, te esperamos!');
     setFormState(initalFormState);
   };
 
